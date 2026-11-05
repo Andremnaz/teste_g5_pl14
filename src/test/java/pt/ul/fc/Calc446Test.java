@@ -1,0 +1,26 @@
+package pt.ul.fc;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+class Calc446Test {
+
+    @Test
+    void surfaceWorks() {
+        assertEquals(12, Calc446.surface(3, 4));
+        assertEquals(35, Calc446.surface(5, 7));
+    }
+
+    @Test
+    void biggestWorks() {
+        assertEquals(9, Calc446.biggest(9, 2));
+        assertEquals(9, Calc446.biggest(2, 9));
+    }
+
+    @Test
+    void isPositiveWorks() {
+        assertTrue(Calc446.isPositive(3));
+        assertFalse(Calc446.isPositive(-3));
+        assertFalse(Calc446.isPositive(0));
+    }
+}
