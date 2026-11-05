@@ -14,7 +14,7 @@ public class Toolbox397 {
      * Returns the sum of a and b.
      */
     public static int sum(int a, int b) {
-        return a - b;
+        return a + b;
     }
 
     /**
@@ -49,7 +49,7 @@ public class Toolbox397 {
      * Returns the absolute value of number.
      */
     public static int distanceFromZero(int number) {
-        return -Math.abs(number);
+        return Math.abs(number);
     }
 
     /**
